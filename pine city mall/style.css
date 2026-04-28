@@ -1,0 +1,181 @@
+#header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 500;
+	width: 90%;
+	height: 50px;
+	background-repeat: repeat-x;	
+}
+
+#header img{
+	display: block;
+	margin: auto;
+	height: 70%;
+}
+/*============ INFO BOX full =======*/
+
+#info-box-full{
+	background-color: rgba(255, 255, 255, .8);
+	width: 90%;
+	display: block;
+	margin: auto;
+	margin-top:12px;
+	padding: 10px;
+}
+#info-box-full ing{
+	width: 100%;
+}
+#info-box-full h3{
+	text-align: center;
+}
+
+/*============ FORM =======*/
+
+input{
+      width: 100%;
+      height: 25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+textarea{
+      width: 100%;
+      height :25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+.button{
+      display : block;
+      background-color: forestgreen;
+      text-decoration : none;
+      text-align  : center;
+      color       : white;
+      font-size   : 16px;
+      font-weight : 600;
+      margin : 12px 0;
+      padding : 8px 0;
+}
+/*============ MAIN-HOME ============*/
+
+#main-home{
+       margin-top: 70px;
+}
+
+
+
+/*============ BOTTOM-TABS ============*/
+	
+#tabs-bottom{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 500;
+	width: 100%;
+	height: 50px;
+	background-color: darkblue;
+}
+
+#tabs-bottom a{
+	float: left;
+	display: block;
+	width: 50%;
+	height: 30px;
+	font-weight: 600;
+	color: whitesmoke;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 15px;
+}
+
+
+
+
+/*============ TOP-TABS ============*/
+#tabs-top{
+      position: fixed;
+      top     : 50px;
+      left    : 0;
+      z-index : 500;
+      width   : 100%;
+      height  : 50px;
+      background-color: darkblue;
+}
+
+
+#body{
+	padding: 0;
+	margin: 0;
+	font-family: helvetica;
+	background-color: aqua;
+}
+#tabs-top a{
+      float   : left;
+      display : block;
+      width   : 33%;
+      height  : 35px;
+	 line-height: 40px; /*vertically centers the text */
+      font-weight : 800;
+      color: floralwhite;
+      text-align  : center;
+      text-decoration : none;
+      padding-top     : 12px; 
+}
+	
+/*============ MAIN ============*/
+#margin{
+	margin-top: 110px;
+	background-image: url(pics/gaetway0-blur.jpeg);
+	background: repeat-y;
+}
+
+#content{
+	padding-top: 1px;
+	padding-bottom: 40px;
+}
+
+/*============ info-box ============*/
+a.info-box{
+	text-decoration: none;
+	background: rgba(173, 216, 230);
+	width: 70%;
+	height: 90px;
+	display: block;
+	margin: auto;
+	margin-top: 12px;
+	padding-top: 1px;
+}
+
+.info-box img{
+	height: 70px;
+	margin: 10px;
+	float: left;
+}
+
+.info-box h3{
+	padding: 0;
+	margin-bottom: 0;
+	width: 90%
+		color: blue;
+}
+
+.info-box p{
+	margin; 0;
+	padding: 0;
+	width: 90%;
+	color: azure;
+}
+	
+nfo-box img.right{
+      float      : right;
+      margin-top : 25px;
+      height     40px; 	
+	
+	
+}
+	
+.body{
+	background-image: url(pics/download%20(1)%20plain%20colors.jpeg)
+		
+}
